@@ -1,0 +1,95 @@
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+    #small_screen {
+        display: contents;
+    }
+
+    #medium_screen {
+        display: none;
+    }
+
+    #large_screen {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    #small_screen {
+        display: none;
+    }
+
+    #medium_screen {
+        display: contents;
+    }
+
+    #large_screen {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #small_screen {
+        display: none;
+    }
+
+    #medium_screen {
+        display: none;
+    }
+
+    #large_screen {
+        display: contents;
+    }
+
+    #main{
+        background-color: #454c56;
+    }
+
+    #main_panel{
+        /* background-color: green; */
+        padding: 0 10px 50px 0;
+    }
+
+    #content_panel{
+        /* margin: 10px 10px; */
+        background-color: white;
+        border-radius: 5px;
+        padding-bottom: 20px;
+    }
+
+    #assit_panel{
+        background-color: aqua;
+    }
+
+    #logo{
+        height: auto;
+        width: auto;
+        font-size: 50px;
+        transform: scale(1, 0.85);
+    }
+
+    #logo_label{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    #logo_panel{
+        width: fit-content;
+        text-align: center;
+        padding-top: 11px;
+    }
+
+    .link_button{
+        background-color: green;
+        border-color: white;
+        border-radius: 10px;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        opacity: 70%;
+    }
+
+    h2{
+        margin-bottom: 10px;
+    }
+}
